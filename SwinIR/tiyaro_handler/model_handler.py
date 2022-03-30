@@ -63,8 +63,6 @@ class TiyaroHandler(TiyaroBase):
             "labelsFound": fields.Number(),
         })
 
-    # Kindly donot change the name or signature
-    #TODO: abstract method in base class
     def setup_model(self, pretrained_file_path):
         self.model = None
         self.task = 'classical_sr'
@@ -104,8 +102,6 @@ class TiyaroHandler(TiyaroBase):
             :, :, :, :w_old + w_pad]
         return img_lq
 
-    # Kindly donot change the name or signature
-    #TODO: abstract method in base class
     def infer(self, json_input):
         # Example of inference
         input = self.__pre_process(json_input)

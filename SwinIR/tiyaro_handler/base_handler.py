@@ -1,7 +1,8 @@
 from marshmallow import Schema, class_registry
+from abc import ABC, abstractmethod
 
 
-class TiyaroBase():
+class TiyaroBase(ABC):
     def __init__(self) -> None:
         self.inputSchema = None
         self.outputSchema = None
@@ -14,5 +15,14 @@ class TiyaroBase():
         self.outputSchema = Schema.from_dict(schemaDict, name="OutputSchema")
         class_registry.register("OutputSchema", self.outputSchema)
 
+    @abstractmethod
     def declareSchema(self):
+        pass
+
+    @abstractmethod
+    def setup_model(self, pretrained_file_path):
+        pass
+
+    @abstractmethod
+    def infer(self, json_input):
         pass

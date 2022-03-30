@@ -1,5 +1,5 @@
 # Name of the model - mandatory.  This will be part of API URL
-name: swinir_classicalsr_scale2_ex
+name: swinir_classicalsr_scale2_ab
 # Version of the model - mandatory.  This will be part of API URL
 version: 1.0.0
 # w.r.t project root - Mandatory.  This helps us with serving your model
