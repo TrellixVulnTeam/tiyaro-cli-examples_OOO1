@@ -8,3 +8,5 @@ deepspeed
 wandb
 marshmallow
 transformers
+einops
+clip-by-openai
