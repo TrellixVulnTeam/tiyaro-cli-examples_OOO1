@@ -3,7 +3,7 @@ name: magma
 # Version of the model - mandatory.  This will be part of API URL
 version: 1.0.0
 # w.r.t project root - Mandatory.  This helps us with serving your model
-reqirements_file_path: "requirements_for_setup.txt" 
+reqirements_file_path: "requirements.txt" 
 # w.r.t project root - Mandatory
 model_file_path: magma/magma.py
 # Mandatory only url is supported for now.  Model must be directly downloadable from this url
