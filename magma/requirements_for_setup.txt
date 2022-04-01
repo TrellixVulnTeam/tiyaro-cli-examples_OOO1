@@ -6,3 +6,4 @@ tqdm
 timm
 deepspeed
 wandb
+marshmallow

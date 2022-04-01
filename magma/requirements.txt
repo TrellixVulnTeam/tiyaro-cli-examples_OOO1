@@ -1,3 +1,4 @@
+pytorch
 torchtyping
 typeguard
 git+https://github.com/finetuneanon/transformers.git#egg=transformers
