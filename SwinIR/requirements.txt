@@ -11,3 +11,4 @@ einops
 opencv-python
 marshmallow
 validators
+PyYAML
