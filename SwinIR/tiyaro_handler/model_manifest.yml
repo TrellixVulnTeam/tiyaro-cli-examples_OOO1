@@ -1,5 +1,3 @@
-# Mandatory - Name of the model.  Used to identify the model
-name: swinir_classicalsr_div2k_scale2_patch48
 # Mandatory - file path w.r.t project root.  This helps us with serving your model
 reqirements_file_path: requirements.txt
 # Mandatory - file path w.r.t project root.  This helps us with serving your model
