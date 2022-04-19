@@ -9,6 +9,4 @@ requests
 timm
 einops
 opencv-python
-marshmallow
-validators
-PyYAML
+tiyaro>=0.0.4.dev5

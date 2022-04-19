@@ -1,4 +1,4 @@
-from tiyaro_handler.base_handler import TiyaroBase
+from tiyaro.sdk.base_handler import TiyaroBase
 from marshmallow import fields
 
 from models.network_swinir import SwinIR as net
