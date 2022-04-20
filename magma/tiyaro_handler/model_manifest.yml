@@ -1,6 +1,3 @@
-# Name of the model - mandatory.  This will be part of API URL
-name: magma
-# Version of the model - mandatory.  This will be part of API URL
 version: 1.0.0
 # w.r.t project root - Mandatory.  This helps us with serving your model
 reqirements_file_path: "requirements.txt" 
@@ -8,10 +5,17 @@ reqirements_file_path: "requirements.txt"
 model_file_path: magma/magma.py
 # Mandatory only url is supported for now.  Model must be directly downloadable from this url
 pretrained_model_url: https://bit.ly/aleph-alpha-magma-download
-# https://arxiv.org
-arxiv_url: https://arxiv.org/abs/2112.05253
-# https://paperswithcode.com/
-papers_with_code_url: https://paperswithcode.com/paper/magma-multimodal-augmentation-of-generative
-
+description: "MAGMA -- Multimodal Augmentation of Generative Models through Adapter-based"
+# Optional - Tags List - ex: Image Recognition, Object Detection, NLP, etc.,
+tags:
+  - MAGMA
+# Optional - Papers / Website / Article links to your model
+papers:
+  # https://arxiv.org
+  arxiv: https://arxiv.org/abs/2112.05253
+  # Optional - https://paperswithcode.com/
+  papers_with_code: https://paperswithcode.com/paper/magma-multimodal-augmentation-of-generative
+  # custom key
+  your_custom_key: "Demo demo"
 
 

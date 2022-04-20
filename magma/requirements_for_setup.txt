@@ -4,9 +4,9 @@ typeguard
 gdown 
 tqdm
 timm
+tiyaro>=0.0.4.dev7
 deepspeed
 wandb
-marshmallow
 transformers
 einops
 clip-by-openai
