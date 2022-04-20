@@ -219,3 +219,21 @@ We achieved state-of-the-art performance on classical/lightweight/real-world ima
 
 ## License and Acknowledgement
 This project is released under the Apache 2.0 license. The codes are heavily based on [Swin Transformer](https://github.com/microsoft/Swin-Transformer). We also refer to codes in [KAIR](https://github.com/cszn/KAIR) and [BasicSR](https://github.com/xinntao/BasicSR). Please also follow their licenses. Thanks for their awesome works.
+
+
+```sh
+your_project_repo
+├── your_model
+├── your_demo
+├── tiyaro_handler
+│   ├── model_manifest.yml    --> provide model specific configurations
+│   ├── model_handler.py
+│   │   ├── declare_schema()  --> provide input-output for your model
+│   │   ├── setup_model()     --> provide initialization your model
+│   │   ├── __pre_process()   --> provide pre-process logic for your model (ex: json to tensor)
+│   │   ├── infer()           --> provide inference logic
+│   │   ├── __post_process()  --> provide post-process logic for your model (ex: tensor to json)
+├── tiyaro_handler_test.py    --> helper used by tiyaro cli
+├── your_requirements.txt
+├── your_README.md
+```
