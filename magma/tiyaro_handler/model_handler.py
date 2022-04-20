@@ -1,5 +1,4 @@
 from tiyaro.sdk.base_handler import TiyaroBase
-from tiyaro_handler.base_handler import TiyaroBase
 from marshmallow import fields
 
 from magma import Magma
