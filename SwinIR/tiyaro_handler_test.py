@@ -70,15 +70,22 @@ if __name__ == "__main__":
         ob.declareSchema()
         print(f'INIT - Done')
 
-        ob.inputSchema().load(input_json)
-        print(f'INPUT - Validation Done')
+        if ob.inputSchema:
+            ob.inputSchema().load(input_json)
+            print(f'INPUT - Validation Done')
+        else:
+            print('WARN - Input schema not defined')
 
         print(f'INFERENCE - Started')
         output = ob.infer(json_input=input_json)
         print(f'INFERENCE - Done')
 
-        output = ob.outputSchema().load(output)
-        print(f'OUTPUT - Validation Done')
+        if ob.outputSchema:
+            output = ob.outputSchema().load(output)
+            print(f'OUTPUT - Validation Done')
+        else:
+            print('WARN - Output schema not defined')
+
         print('OUTPUT STARTS - {}'.format('*'*50))
         print(json.dumps(output, indent=4, sort_keys=True))
         print('OUTPUT ENDS - {}'.format('*'*50))
