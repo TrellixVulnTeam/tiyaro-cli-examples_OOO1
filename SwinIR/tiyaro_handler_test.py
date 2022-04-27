@@ -2,9 +2,6 @@ import json
 import sys
 import traceback
 
-import requests
-import validators
-import yaml
 from tiyaro.sdk.test_utils.util import get_input_json, get_pretrained_file_path, save_test_input, save_test_output
 
 from tiyaro_handler.model_handler import TiyaroHandler
@@ -32,14 +29,13 @@ if __name__ == "__main__":
         print(f'INFERENCE - Started')
         output = ob.infer(json_input=input_json)
         print(f'INFERENCE - Done')
-        
+
         if ob.outputSchema:
             output = ob.outputSchema().load(output)
             save_test_output(output)
             print(f'OUTPUT - Validation Done')
         else:
             print('WARN - Output schema not defined')
-        
 
         print('OUTPUT STARTS - {}'.format('*'*50))
         print(json.dumps(output, indent=4, sort_keys=True))

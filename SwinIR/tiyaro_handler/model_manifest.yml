@@ -4,7 +4,7 @@ reqirements_file_path: requirements.txt
 model_file_path: models/network_swinir.py
 # Mandatory - HTTP GET url to download pre-trained file.  Model must be directly downloadable from this url. 
 # OR local file path.  (In case of relative path, must be with respect to project root)
-pretrained_model_url: 001_classicalSR_DIV2K_s48w8_SwinIR-M_x2.pth
+pretrained_model_url: https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/001_classicalSR_DIV2K_s48w8_SwinIR-M_x2.pth
 # Optional - Description of your model in few lines
 description: "SwinIR - Image Restoration Using Swin Transformer.  001 Classical Image Super-Resolution (middle size).  (setting1: when model is trained on DIV2K and with scale=2 training_patch_size=48)"
 # Optional - Tags List - ex: Image Recognition, Object Detection, NLP, etc.,
