@@ -47,21 +47,17 @@ class TiyaroHandler(TiyaroBase):
         })
         '''
 
-        # self.defInputSchema({
-        #     "inputImage": fields.String(required=True,
-        #                                 metadata={
-        #                                     "description": "Base64 encoded image."}
-        #                                 ),
-        #     "numLabels": fields.Number(),
-        #     "imageSource": fields.String(),
-        #     "rasterize": fields.Boolean(),
-        # })
+        self.defInputSchema({
+            "inputImage": fields.String(required=True,
+                                        metadata={
+                                            "description": "Base64 encoded image."}
+                                        ),
+        })
 
-        # self.defOutputSchema({
-        #     "outputImage": fields.String(reqruied=True, metadata={
-        #         "description": "Base64 encoded image."}),
-        #     "labelsFound": fields.Number(),
-        # })
+        self.defOutputSchema({
+            "outputImage": fields.String(reqruied=True, metadata={
+                "description": "Base64 encoded image."}),
+        })
 
     def setup_model(self, pretrained_file_path):
         self.model = None
