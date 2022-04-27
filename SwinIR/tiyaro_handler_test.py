@@ -37,7 +37,7 @@ def get_pretrained_file_path(x):
             if validators.url(value):
                 r = requests.get(value, stream = True)
                 file_path = '/tmp/pre_trained.pth'
-                print(f'DOWNLOADING - pretrained file to {file_path} from: {value}')
+                print(f'DOWNLOADING - pretrained file to {file_path} from URL: {value}')
                 if r.status_code == 200:
                     with open(file_path, 'wb') as f:
                         r.raw.decode_content = True
@@ -47,7 +47,7 @@ def get_pretrained_file_path(x):
                 else:
                     raise RuntimeError(f'Unable to download pretrained file from: {value}')
             else:
-                return local_file(x, 'Expected valid local file path or url')
+                return local_file(value, 'Expected valid local file path')
 
     return local_file(x, 'Expected valid local file path')
 
