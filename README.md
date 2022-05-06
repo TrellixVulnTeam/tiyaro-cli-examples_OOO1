@@ -7,7 +7,7 @@ Sample model projects to demonstrate / test model onboarding to Tiyaro Infra
 ## GFPGAN
 [Model Source](https://github.com/TencentARC/GFPGAN)
 
-[Handler](./GFPGAN/tiyaro_handler/) shows only one example model for image enhancement.  Check project's [README](./GFPGAN/README.md) and [Test](./GFPGAN/tiyaro_handler.py) for writing handlers for other models.
+[Handler](./GFPGAN/tiyaro_handler/) shows only one example model for image enhancement.  Check project's [README](./GFPGAN/README.md) and [Test](./GFPGAN/tiyaro_handler_test.py) for writing handlers for other models.
 
 - [x] Generated MAR file using Tiyaro push infra
 - [x] API available to do inference
@@ -15,7 +15,7 @@ Sample model projects to demonstrate / test model onboarding to Tiyaro Infra
 ## PSPNet
 [Model Source](https://github.com/yassouali/pytorch-segmentation)
 
-[Handler](./PSPNet/tiyaro_handler/) shows only one example model for Image Segmentation. Check project's [README](./PSPNet/README.md) and [Test](./PSPNet/tiyaro_handler.py) for writing handlers for other models.
+[Handler](./PSPNet/tiyaro_handler/) shows only one example model for Image Segmentation. Check project's [README](./PSPNet/README.md) and [Test](./PSPNet/tiyaro_handler_test.py) for writing handlers for other models.
 
 - [x] Generated MAR file using Tiyaro push infra
 - [x] API available to do inference
