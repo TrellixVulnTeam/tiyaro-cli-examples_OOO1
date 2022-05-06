@@ -7,7 +7,7 @@ Sample model projects to demonstrate / test model onboarding to Tiyaro Infra
 ## GFPGAN
 [Model Source](https://github.com/TencentARC/GFPGAN)
 
-[Handler](./GFPGAN/tiyaro_handler/) shows only one example model for image enhancement.  Check project's [README](./GFPGAN/README.md) and [Test](./GFPGAN/tiyaro_handler_test.py) for writing handlers for other models.
+[Handler](./GFPGAN/tiyaro_handler/) shows only one example model for image enhancement.  Check project's [README](./GFPGAN/README.md) and [Test](./GFPGAN/test_gfpgan_model.py) for writing handlers for other models.
 
 - [x] Generated MAR file using Tiyaro push infra
 - [x] API available to do inference
