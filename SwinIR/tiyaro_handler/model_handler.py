@@ -22,14 +22,14 @@ class TiyaroHandler(TiyaroBase):
     #
     #
     # Input and Output schema MUST be a valid JSON
-    def declareSchema(self):
+    def declare_schema(self):
         # Example schema
         '''
         #
         # Define your input schema as a 'marshmallow' dict
         # https://marshmallow.readthedocs.io/en/stable/quickstart.html#creating-schemas-from-dictionaries
         #
-        self.defInputSchema({
+        self.def_input_schema({
             "img": fields.String(required=True,
                                  metadata={
                                      "description": "Base64 encoded image."}
@@ -41,20 +41,20 @@ class TiyaroHandler(TiyaroBase):
         # Define your output schema as a 'marshmallow' dict
         # https://marshmallow.readthedocs.io/en/stable/quickstart.html#creating-schemas-from-dictionaries
         #
-        self.defOutputSchema({
+        self.def_output_schema({
             "img": fields.String(metadata={
                 "description": "Base64 encoded image."})
         })
         '''
 
-        self.defInputSchema({
+        self.def_input_schema({
             "inputImage": fields.String(required=True,
                                         metadata={
                                             "description": "Base64 encoded image."}
                                         ),
         })
 
-        self.defOutputSchema({
+        self.def_output_schema({
             "outputImage": fields.String(reqruied=True, metadata={
                 "description": "Base64 encoded image."}),
         })

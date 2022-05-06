@@ -2,7 +2,7 @@ import json
 import sys
 import traceback
 
-from tiyaro.sdk.test_utils.util import get_input_json, get_pretrained_file_path, save_test_input, save_test_output
+from tiyaro.sdk.test_utils.util import get_input_json, get_pretrained_file_path, save_test_input_if_schema, save_test_output_if_schema
 
 from tiyaro_handler.model_handler import TiyaroHandler
 
@@ -16,26 +16,16 @@ if __name__ == "__main__":
 
         ob = TiyaroHandler()
         ob.setup_model(pretrained_file_path=file_path)
-        ob.declareSchema()
+        ob.declare_schema()
         print(f'INIT - Done')
 
-        if ob.inputSchema:
-            ob.inputSchema().load(input_json)
-            save_test_input(input_json)
-            print(f'INPUT - Validation Done')
-        else:
-            print('WARN - Input schema not defined')
+        save_test_input_if_schema(ob, input_json)
 
         print(f'INFERENCE - Started')
         output = ob.infer(json_input=input_json)
         print(f'INFERENCE - Done')
 
-        if ob.outputSchema:
-            output = ob.outputSchema().load(output)
-            save_test_output(output)
-            print(f'OUTPUT - Validation Done')
-        else:
-            print('WARN - Output schema not defined')
+        save_test_output_if_schema(ob, output)
 
         print('OUTPUT STARTS - {}'.format('*'*50))
         print(json.dumps(output, indent=4, sort_keys=True))
