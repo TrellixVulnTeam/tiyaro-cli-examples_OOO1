@@ -1,0 +1,5 @@
+{
+    "model_name": "PSPNet",
+    "model_framework": "pytorch",
+    "model_name_suffix": "ef885d"
+}

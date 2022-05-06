@@ -1,0 +1,9 @@
+torch      
+torchvision
+tqdm
+tensorboard
+Pillow
+scipy
+numpy
+opencv-python==4.5.5.64
+tiyaro==0.0.4.dev9

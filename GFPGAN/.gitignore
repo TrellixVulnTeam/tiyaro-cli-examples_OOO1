@@ -1,10 +1,18 @@
+# ignored folders
+datasets/*
+experiments/*
+results/*
+tb_logger/*
+wandb/*
+tmp/*
+
+version.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
-*.ipynb_checkpoints
-*.ipython_config
-*.ipnb
+
 # C extensions
 *.so
 
@@ -129,5 +137,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-
-.DS_Store
