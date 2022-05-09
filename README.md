@@ -1,5 +1,10 @@
-# tiyaro-push-examples
-Sample model projects to demonstrate / test model onboarding to Tiyaro Infra using [Tiyaro Cli](https://pypi.org/project/tiyaro/)
+# tiyaro-cli-examples
+Sample model projects to demonstrate / test model onboarding to Tiyaro Infra using [Tiyaro CLI](https://pypi.org/project/tiyaro/)
+
+### Installation
+```
+pip install tiyaro
+```
 
 # PyTorch
 Sample PyTorch models onboarded to Tiyaro Infra
