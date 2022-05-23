@@ -1,5 +1,4 @@
 from tiyaro.sdk.base_handler import TiyaroBase
-from marshmallow import fields
 
 import json
 import base64
