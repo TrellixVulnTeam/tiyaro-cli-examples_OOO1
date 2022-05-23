@@ -1,0 +1,6 @@
+{
+    "model_name": "alexnetpy",
+    "model_framework": "pytorch",
+    "model_class": "image-classification",
+    "model_name_suffix": "dc50d8"
+}
