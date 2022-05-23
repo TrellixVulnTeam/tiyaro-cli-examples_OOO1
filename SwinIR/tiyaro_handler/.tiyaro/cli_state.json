@@ -1,5 +1,6 @@
 {
     "model_name": "swinir_classicalsr_div2k_scale2_status2",
     "model_framework": "pytorch",
+    "model_class": "custom",
     "model_name_suffix": "899ec8"
 }
