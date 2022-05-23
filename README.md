@@ -16,7 +16,7 @@ Sample PyTorch models onboarded to Tiyaro Infra
 
 - [x] [Tiyaro Model Card](https://console.tiyaro.ai/modelstudio-publish/trn:model:123456789012-venkat:1.0:swinir_classicalsr_div2k_scale2_status2_899ec8)
 - [x] API available
-- [x] Verified using Tiyaro CLI Version `0.0.4`
+- [x] Verified using Tiyaro CLI Version `0.0.6`
 
 ## GFPGAN
 [Model Source](https://github.com/TencentARC/GFPGAN)
