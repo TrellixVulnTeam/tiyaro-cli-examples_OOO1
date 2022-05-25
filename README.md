@@ -16,16 +16,16 @@ Sample PyTorch models onboarded to Tiyaro Infra
 
 - [x] [Tiyaro Model Card](https://console.tiyaro.ai/explore/trn:model:123456789012-venkat:1.0:alexnetpy_dc50d8)
 - [x] API available
-- [x] Verified using Tiyaro CLI Version `0.0.6`
+- [x] Verified using Tiyaro CLI Version `0.0.7`
 
 ## SWINIR
 [Model Source](https://github.com/JingyunLiang/SwinIR)
 
 [Handler](./SwinIR/tiyaro_handler/) shows only one example for Image Restoration.  There are 10+ pre-trained files and models in this repo.  Check project's [README](./SwinIR/README.md) and [Test](./SwinIR/main_test_swinir.py) for writing handlers for other models.
 
-- [x] [Tiyaro Model Card](https://console.tiyaro.ai/explore/trn:model:123456789012-venkat:1.0:swinir_classicalsr_div2k_scale2_status2_899ec8)
+- [x] [Tiyaro Model Card](https://console.tiyaro.ai/explore/trn:model:123456789012-venkat:1.0:swinir_899ec8)
 - [x] API available
-- [x] Verified using Tiyaro CLI Version `0.0.6`
+- [x] Verified using Tiyaro CLI Version `0.0.7`
 
 ## GFPGAN
 [Model Source](https://github.com/TencentARC/GFPGAN)
