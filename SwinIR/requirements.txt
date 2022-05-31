@@ -9,4 +9,4 @@ requests
 timm
 einops
 opencv-python
-tiyaro==0.0.8.dev12
+tiyaro==0.0.8

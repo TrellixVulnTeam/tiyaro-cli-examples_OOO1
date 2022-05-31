@@ -16,7 +16,7 @@ Sample PyTorch models onboarded to Tiyaro Infra
 
 - [x] [Tiyaro Model Card](https://console.tiyaro.ai/explore/trn:model:123456789012-venkat:1.0:alexnetpy_dc50d8)
 - [x] API available
-- [x] Verified using Tiyaro CLI Version `0.0.7`
+- [x] Verified using Tiyaro CLI Version `0.0.8`
 
 ## SWINIR
 [Model Source](https://github.com/JingyunLiang/SwinIR)
@@ -25,7 +25,7 @@ Sample PyTorch models onboarded to Tiyaro Infra
 
 - [x] [Tiyaro Model Card](https://console.tiyaro.ai/explore/trn:model:123456789012-venkat:1.0:SWINIR_899ec8)
 - [x] API available
-- [x] Verified using Tiyaro CLI Version `0.0.7`
+- [x] Verified using Tiyaro CLI Version `0.0.8`
 
 ## GFPGAN
 [Model Source](https://github.com/TencentARC/GFPGAN)
