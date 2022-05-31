@@ -12,9 +12,18 @@ Sample PyTorch models onboarded to Tiyaro Infra
 ## ALEXNET
 [Model Source](https://github.com/Lornatang/AlexNet-PyTorch)
 
-[Handler](./AlexNet/tiyaro_handler/) shows a simple Image Classification example. Check project's [README](./AlexNet/README.md) for more details about the project.
+[Handler](./AlexNet/tiyaro_handler/) shows a simple `Image Classification` example. Check project's [README](./AlexNet/README.md) for more details about the project.
 
 - [x] [Tiyaro Model Card](https://console.tiyaro.ai/explore/trn:model:123456789012-venkat:1.0:alexnetpy_dc50d8)
+- [x] API available
+- [x] Verified using Tiyaro CLI Version `0.0.8`
+
+## FLAIR-TEXT-CLASSIFICATION
+[Model Source](https://github.com/flairNLP/flair)
+
+[Handler](./flair-text-classification/tiyaro_handler/) shows a simple `TEXT Classification` example. Check project's [README](./flair-text-classification/README.md) for more details about the project.
+
+- [x] [Tiyaro Model Card](https://console.tiyaro.ai/explore/trn:model:123456789012-venkat:1.0:FLAIR_TEXT_CLASSIFICATION_0e19a4)
 - [x] API available
 - [x] Verified using Tiyaro CLI Version `0.0.8`
 
