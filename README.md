@@ -14,6 +14,11 @@ Sample model projects to demonstrate / test model onboarding to Tiyaro Infra usi
 Sample PyTorch models onboarded to Tiyaro Infra
 
 ### ALEXNET
+
+<a href="https://console.tiyaro.ai/explore/trn:model:123456789012-venkat:1.0:alexnetpy_dc50d8">
+<img src="https://tiyaro-public-docs.s3.us-west-2.amazonaws.com/assets/tiyaro-badge.svg"></a>
+
+
 [Model Source](https://github.com/Lornatang/AlexNet-PyTorch)
 
 [Handler](./AlexNet/tiyaro_handler/) shows a simple `Image Classification` example. Check project's [README](./AlexNet/README.md) for more details about the project.
@@ -23,15 +28,11 @@ Sample PyTorch models onboarded to Tiyaro Infra
 - [x] Verified using Tiyaro CLI Version `0.0.8`
 
 ### FLAIR-TEXT-CLASSIFICATION
-[Model Source](https://github.com/flairNLP/flair)
 
-[Handler](./flair-text-classification/tiyaro_handler/) shows a simple `Text Classification` example. Check project's [README](./flair-text-classification/README.md) for more details about the project.
+<a href="https://console.tiyaro.ai/explore/trn:model:123456789012-venkat:1.0:FLAIR_TEXT_CLASSIFICATION_0e19a4">
+<img src="https://tiyaro-public-docs.s3.us-west-2.amazonaws.com/assets/tiyaro-badge.svg"></a>
 
-- [x] [Tiyaro Model Card](https://console.tiyaro.ai/explore/trn:model:123456789012-venkat:1.0:FLAIR_TEXT_CLASSIFICATION_0e19a4)
-- [x] API available
-- [x] Verified using Tiyaro CLI Version `0.0.8`
 
-### SWINIR
 [Model Source](https://github.com/JingyunLiang/SwinIR)
 
 [Handler](./SwinIR/tiyaro_handler/) shows only one example for Image Restoration.  There are 10+ pre-trained files and models in this repo.  Check project's [README](./SwinIR/README.md) and [Test](./SwinIR/main_test_swinir.py) for writing handlers for other models.
@@ -41,6 +42,11 @@ Sample PyTorch models onboarded to Tiyaro Infra
 - [x] Verified using Tiyaro CLI Version `0.0.8`
 
 ### GFPGAN
+
+<a href="https://console.tiyaro.ai/explore/trn:model:123456789012-smainkar:1.0:GFPGAN_680907">
+<img src="https://tiyaro-public-docs.s3.us-west-2.amazonaws.com/assets/tiyaro-badge.svg"></a>
+
+
 [Model Source](https://github.com/TencentARC/GFPGAN)
 
 [Handler](./GFPGAN/tiyaro_handler/) shows only one example model for Image Enhancement.  Check project's [README](./GFPGAN/README.md) for writing handlers for other models.
@@ -50,6 +56,11 @@ Sample PyTorch models onboarded to Tiyaro Infra
 - [x] Verified using Tiyaro CLI Version `0.0.4.dev9`
 
 ### PSPNet
+
+<a href="https://console.tiyaro.ai/explore/trn:model:123456789012-smainkar:1.0:PSPNet_ef885d">
+<img src="https://tiyaro-public-docs.s3.us-west-2.amazonaws.com/assets/tiyaro-badge.svg"></a>
+
+
 [Model Source](https://github.com/yassouali/pytorch-segmentation)
 
 [Handler](./PSPNet/tiyaro_handler/) shows only one example model for Image Segmentation. Check project's [README](./PSPNet/README.md)  for writing handlers for other models.
