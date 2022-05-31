@@ -1,6 +1,6 @@
 {
     "model_name": "SWINIR",
     "model_framework": "pytorch",
-    "model_class": "custom",
+    "model_type": "custom",
     "model_name_suffix": "899ec8"
 }
