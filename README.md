@@ -1,15 +1,19 @@
-# tiyaro-cli-examples
-Sample model projects to demonstrate / test model onboarding to Tiyaro Infra using [Tiyaro CLI](https://pypi.org/project/tiyaro/)
+# Tiyaro CLI
+[Tiyaro CLI](https://pypi.org/project/tiyaro/) allows you to convert your github repo into a fully functional API. Complete with its own dedicated model card, sample code snippets, and swagger spec for your users, 
+colleagues to discover your model and easily incorporate it into their smart applications.
 
 ### Installation
 ```
 pip install tiyaro
 ```
 
-# PyTorch
+# Tiyaro CLI Examples
+Sample model projects to demonstrate / test model onboarding to Tiyaro Infra using Tiyaro CLI
+
+## PyTorch
 Sample PyTorch models onboarded to Tiyaro Infra
 
-## ALEXNET
+### ALEXNET
 [Model Source](https://github.com/Lornatang/AlexNet-PyTorch)
 
 [Handler](./AlexNet/tiyaro_handler/) shows a simple `Image Classification` example. Check project's [README](./AlexNet/README.md) for more details about the project.
@@ -18,16 +22,16 @@ Sample PyTorch models onboarded to Tiyaro Infra
 - [x] API available
 - [x] Verified using Tiyaro CLI Version `0.0.8`
 
-## FLAIR-TEXT-CLASSIFICATION
+### FLAIR-TEXT-CLASSIFICATION
 [Model Source](https://github.com/flairNLP/flair)
 
-[Handler](./flair-text-classification/tiyaro_handler/) shows a simple `TEXT Classification` example. Check project's [README](./flair-text-classification/README.md) for more details about the project.
+[Handler](./flair-text-classification/tiyaro_handler/) shows a simple `Text Classification` example. Check project's [README](./flair-text-classification/README.md) for more details about the project.
 
 - [x] [Tiyaro Model Card](https://console.tiyaro.ai/explore/trn:model:123456789012-venkat:1.0:FLAIR_TEXT_CLASSIFICATION_0e19a4)
 - [x] API available
 - [x] Verified using Tiyaro CLI Version `0.0.8`
 
-## SWINIR
+### SWINIR
 [Model Source](https://github.com/JingyunLiang/SwinIR)
 
 [Handler](./SwinIR/tiyaro_handler/) shows only one example for Image Restoration.  There are 10+ pre-trained files and models in this repo.  Check project's [README](./SwinIR/README.md) and [Test](./SwinIR/main_test_swinir.py) for writing handlers for other models.
@@ -36,7 +40,7 @@ Sample PyTorch models onboarded to Tiyaro Infra
 - [x] API available
 - [x] Verified using Tiyaro CLI Version `0.0.8`
 
-## GFPGAN
+### GFPGAN
 [Model Source](https://github.com/TencentARC/GFPGAN)
 
 [Handler](./GFPGAN/tiyaro_handler/) shows only one example model for Image Enhancement.  Check project's [README](./GFPGAN/README.md) for writing handlers for other models.
@@ -45,7 +49,7 @@ Sample PyTorch models onboarded to Tiyaro Infra
 - [x] API available
 - [x] Verified using Tiyaro CLI Version `0.0.4.dev9`
 
-## PSPNet
+### PSPNet
 [Model Source](https://github.com/yassouali/pytorch-segmentation)
 
 [Handler](./PSPNet/tiyaro_handler/) shows only one example model for Image Segmentation. Check project's [README](./PSPNet/README.md)  for writing handlers for other models.
@@ -55,7 +59,16 @@ Sample PyTorch models onboarded to Tiyaro Infra
 - [x] Verified using Tiyaro CLI Version `0.0.4.dev9`
 
 
-## MAGMA
+### MAGMA
 [Model Source](https://github.com/Aleph-Alpha/magma)
 
 [Handler](./magma/tiyaro_handler/) shows example tiyaro handler based on this model's [README](./magma/README.md) and [Example](./magma/example_inference.py). The pre-trained file for this model is 12.1GB and it has exposed stress points in Tiyaro Push MVP setup.  WIP.
+
+# Model Types
+We have curated the open source community, model hubs and popular AI vendors to make sure you have access to the best AI models. Each model in the Tiyaro universe has its own API URL.  Examples are `image-classification`, `image-object-detection`, `text-classification`, etc., The full list of model types is [here](https://github.com/tiyaro/code-samples/tree/main/python).  
+
+Tiyaro CLI currently supports the `image-classification` and `text-classification` model types. New model types are being added as we speak. If a model type is currently not supported by the CLI please reachout to us
+at help@tiyaro.ai with your request.
+
+# Supported Frameworks
+Currently, only `PyTorch` is supported. We are actively working on adding support to more frameworks. Reachout to us at help@tiyaro.ai with your request for any other framework.
