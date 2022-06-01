@@ -16,7 +16,7 @@ Sample PyTorch models onboarded to Tiyaro Infra
 ### ALEXNET
 
 <a href="https://console.tiyaro.ai/explore/trn:model:123456789012-venkat:1.0:alexnetpy_dc50d8">
-<img src="https://tiyaro-public-docs.s3.us-west-2.amazonaws.com/assets/tiyaro-badge.svg"></a>
+<img src="https://tiyaro-public-docs.s3.us-west-2.amazonaws.com/assets/tiyaro_badge.svg"></a>
 
 [Model Source](https://github.com/Lornatang/AlexNet-PyTorch)
 
@@ -29,7 +29,7 @@ Sample PyTorch models onboarded to Tiyaro Infra
 ### FLAIR-TEXT-CLASSIFICATION
 
 <a href="https://console.tiyaro.ai/explore/trn:model:123456789012-venkat:1.0:FLAIR_TEXT_CLASSIFICATION_0e19a4">
-<img src="https://tiyaro-public-docs.s3.us-west-2.amazonaws.com/assets/tiyaro-badge.svg"></a>
+<img src="https://tiyaro-public-docs.s3.us-west-2.amazonaws.com/assets/tiyaro_badge.svg"></a>
 
 [Model Source](https://github.com/JingyunLiang/SwinIR)
 
@@ -42,7 +42,7 @@ Sample PyTorch models onboarded to Tiyaro Infra
 ### GFPGAN
 
 <a href="https://console.tiyaro.ai/explore/trn:model:123456789012-smainkar:1.0:GFPGAN_680907">
-<img src="https://tiyaro-public-docs.s3.us-west-2.amazonaws.com/assets/tiyaro-badge.svg"></a>
+<img src="https://tiyaro-public-docs.s3.us-west-2.amazonaws.com/assets/tiyaro_badge.svg"></a>
 
 [Model Source](https://github.com/TencentARC/GFPGAN)
 
@@ -55,7 +55,7 @@ Sample PyTorch models onboarded to Tiyaro Infra
 ### PSPNet
 
 <a href="https://console.tiyaro.ai/explore/trn:model:123456789012-smainkar:1.0:PSPNet_ef885d">
-<img src="https://tiyaro-public-docs.s3.us-west-2.amazonaws.com/assets/tiyaro-badge.svg"></a>
+<img src="https://tiyaro-public-docs.s3.us-west-2.amazonaws.com/assets/tiyaro_badge.svg"></a>
 
 [Model Source](https://github.com/yassouali/pytorch-segmentation)
 
