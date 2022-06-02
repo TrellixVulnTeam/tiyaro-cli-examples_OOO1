@@ -31,6 +31,16 @@ Sample PyTorch models onboarded to Tiyaro Infra
 <a href="https://console.tiyaro.ai/explore/trn:model:123456789012-venkat:1.0:FLAIR_TEXT_CLASSIFICATION_0e19a4">
 <img src="https://tiyaro-public-docs.s3.us-west-2.amazonaws.com/assets/tiyaro_badge.svg"></a>
 
+[Model Source](https://github.com/flairNLP/flair)
+
+[Handler](./flair-text-classification/tiyaro_handler/) shows a simple `Text Classification` example. Check project's [README](./flair-text-classification/README.md) for more details about the project.
+
+- [x] [Tiyaro Model Card](https://console.tiyaro.ai/explore/trn:model:123456789012-venkat:1.0:FLAIR_TEXT_CLASSIFICATION_0e19a4)
+- [x] API available
+- [x] Verified using Tiyaro CLI Version `0.0.8`
+
+### SWINIR
+
 [Model Source](https://github.com/JingyunLiang/SwinIR)
 
 [Handler](./SwinIR/tiyaro_handler/) shows only one example for Image Restoration.  There are 10+ pre-trained files and models in this repo.  Check project's [README](./SwinIR/README.md) and [Test](./SwinIR/main_test_swinir.py) for writing handlers for other models.
